@@ -1,0 +1,80 @@
+
+:root {
+    --hue-color: 224;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav,ul , li , a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 20px;
+    height: 100px;
+    font-size: 20px;
+    cursor:default;
+    font-size: 20px;
+    color: #000000;
+}
+
+a:hover {
+    color: hsl(var(--hue-color), 89%, 60%);;
+}
+main {
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 60px ;
+}
+
+.text-bienvenu {
+    padding-left: 20%;
+}
+
+.txt{
+    font-size: 70px;
+}
+
+.txt-color {
+    color: hsl(var(--hue-color), 89%, 60%);;
+}
+
+.btn-contact {
+    color: #fff;
+    background-color: hsl(var(--hue-color), 89%, 60%);;
+    border: none;
+    padding: .75rem 2.5rem;
+    border-radius: .5rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-reseaux {
+    height: 100px;
+}
+
+.logo-reseaux:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
